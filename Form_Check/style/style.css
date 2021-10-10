@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainfrom{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.034);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2rem;
+    width: 25%;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.from label,p {
+    display: block;
+    text-align: left;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.from input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 94%;
+    padding: 0.5rem;
+    border-color: rgba(240, 239, 239, 0.527);
+    border-radius: 5px;
+
+}
+
+.from input:focus {
+    outline: none;
+}
+
+
+button {
+    margin-top: 0.5rem;
+    width: 100%;
+    display: block;
+    color: white;
+    background-color: orange;
+    border: 0px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1rem;
+    color: red;
+}
